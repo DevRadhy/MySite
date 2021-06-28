@@ -1,0 +1,48 @@
+.container {
+  width: 30rem;
+  background: var(--second-color);
+  border-radius: 20px;
+  padding: 2rem;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  .profile {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+  }
+  
+  span {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+  }
+  
+  p {
+    color: var(--text-description);
+  }
+
+  section {
+    width: 80%;
+    margin-top: 8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    img {
+      width: 1.8rem;
+      height: 1.8rem;
+
+      cursor: pointer;
+
+      transition: filter 0.2;
+
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+  }
+}
